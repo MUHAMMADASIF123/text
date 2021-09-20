@@ -48,19 +48,19 @@ export default function TextForm(props) {
           id="mybox" onChange={handleChange}
           rows="8"
         ></textarea>
-        <button className="btn btn-primary mx-2" onClick={upperCase}>
+        <button className="btn btn-primary mx-2 my-2" onClick={upperCase}>
           Convert UpperCase
         </button>
-        <button className="btn btn-primary mx-2" onClick={lowerCase}>
+        <button className="btn btn-primary mx-2 my-2" onClick={lowerCase}>
           Convert LowerCase
         </button>
-        <button className="btn btn-primary mx-2" onClick={clear}>
+        <button className="btn btn-primary mx-2 my-2" onClick={clear}>
           Clear Text
         </button>
-        <button className="btn btn-primary mx-2" onClick={removeExtraSpace}>
+        <button className="btn btn-primary mx-2 my-2" onClick={removeExtraSpace}>
           RemoveExtraSpapaces
         </button>
-        {/* <button className="btn btn-primary mx-2" onClick={copyText}>
+        {/* <button className="btn btn-primary mx-2 my-2" onClick={copyText}>
           copy
         </button> */}
       </div>
